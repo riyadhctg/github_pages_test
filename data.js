@@ -23,5 +23,10 @@ const data = [
       "title": "Linux / Scripts",
       "subtitle": "shebang",
       "description": `You may have seen this type of heading in scripts --> #!/bin/bash. It's called shebang. A shebang is only relevant when a script has the execute permission (e.g. chmod u+x script.sh). Since it's commented out, it does not typically interfere with the script. When a shell executes the script it will use the specified interpreter. It's typically in this format: #!interpreter [optional-arg]`
+  },
+  {
+      "title": "Python",
+      "subtitle": "python -i file.py",
+      "description": `This loads a python file in the console and lets you use the python code in that file interactively.`
   }
 ]
