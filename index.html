@@ -3,8 +3,8 @@
 <body>
 
 <h2>TimBytes</h2>
-<h3> id="title" </h3>
-<h4> id="subtitle" </h4>
+<h3 id="title" > </h3>
+<h4 id="subtitle" > </h4>
 <p id="description"></p>
 
 <script>
@@ -25,6 +25,7 @@ let obj = [{
 randIdx = Math.floor(Math.random() * obj.length)
 
 randObj = obj[randIdx]
+console.log(randObj)
 
 document.getElementById("title").innerHTML = randObj.title
 document.getElementById("subtitle").innerHTML = randObj.subtitle
