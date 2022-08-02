@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Random Timbits</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-    .content {
-        max-width: 500px;
-        margin: auto;
-    }
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 </style>
+</head>
 <body>
-<div class="content">
-    <h2>TimBytes</h2>
-    <h3 id="title" > </h3>
-    <h4 id="subtitle" > </h4>
-    <p id="description"></p>
-</div>
-
 
 <script>
-let obj = [{
-		"title": "Linux Command",
-		"subtitle": "ls",
-		"description": "lists contents of the current directory"
-	},{
-		"title": "Git Command",
-		"subtitle": "git branch -a",
-		"description": "lists all branches"
-	},{
-		"title": "Git Command",
-		"subtitle": "git checkout -b new_branch_name",
-		"description": "Create a new git branch in local named new_branch_name"
-	}]
+    let obj = [{
+            "title": "Linux Command",
+            "subtitle": "ls",
+            "description": "lists contents of the current directory"
+        },{
+            "title": "Git Command",
+            "subtitle": "git branch -a",
+            "description": "lists all branches"
+        },{
+            "title": "Git Command",
+            "subtitle": "git checkout -b new_branch_name",
+            "description": "Create a new git branch in local named new_branch_name"
+        }]
+    
+    randIdx = Math.floor(Math.random() * obj.length)
+    
+    randObj = obj[randIdx]
+    console.log(randObj)
+    
+    document.getElementById("title").innerHTML = randObj.title
+    document.getElementById("subtitle").innerHTML = randObj.subtitle
+    document.getElementById("description").innerHTML = randObj.description
+    
+    </script>
 
-randIdx = Math.floor(Math.random() * obj.length)
-
-randObj = obj[randIdx]
-console.log(randObj)
-
-document.getElementById("title").innerHTML = randObj.title
-document.getElementById("subtitle").innerHTML = randObj.subtitle
-document.getElementById("description").innerHTML = randObj.description
-
-</script>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top" id="title"></h1>
+    <h3 class="w3-jumbo w3-animate-top" id="subtitle"></h3>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center" id="description">35 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
 
 </body>
 </html>
+
