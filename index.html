@@ -4,28 +4,34 @@
 <title>Random Timbits</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%;
-    background-color: #3A3B3C
+max-width: 800px;
+margin: auto;
+    background-color: #3A3B3C;
+    color: #FFFFF7;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  
+  font-family: monospace;
+  font-size: inherit;
 }
+#title {
+border-bottom: 1px dotted grey;
+}
+
+
 </style>
 </head>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+<div class="content">
+    <h2 id="title"></h2>
+    <h3><code id="subtitle"></code></h3>
+    <pre><code id="description"></code></pre>
   </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top" id="title"></h1>
-    <h3 class="w3-jumbo w3-animate-top" id="subtitle"></h3>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center" id="description"></p>
-  </div>
-</div>
 
 <script>
     let obj = [{
