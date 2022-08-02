@@ -3,19 +3,32 @@
 <body>
 
 <h2>TimBytes</h2>
-
-<p id="demo"></p>
+<h3> id="title" </h3>
+<h4> id="subtitle" </h4>
+<p id="description"></p>
 
 <script>
-let obj = {"employees":[
-  {"firstName":"John", "lastName":"Doe"},
-  {"firstName":"Anna", "lastName":"Smith"},
-  {"firstName":"Peter", "lastName":"Jones"}
-]
-}
+let obj = [{
+		"title": "Linux Command",
+		"subtitle": "ls",
+		"description": "lists contents of the current directory"
+	},{
+		"title": "Git Command",
+		"subtitle": "git branch -a",
+		"description": "lists all branches"
+	},{
+		"title": "Git Command",
+		"subtitle": "git checkout -b new_branch_name",
+		"description": "Create a new git branch in local named new_branch_name"
+	}]
 
-document.getElementById("demo").innerHTML =
-obj.employees[1].firstName + " " + obj.employees[1].lastName;
+randIdx = Math.floor(Math.random() * obj.length)
+
+randObj = obj[randIdx]
+
+document.getElementById("title").innerHTML = randObj.title
+document.getElementById("subtitle").innerHTML = randObj.subtitle
+document.getElementById("description").innerHTML = randObj.description
 
 </script>
 
