@@ -1,25 +1,21 @@
-<head>
-    <!-- This will show up on the tab in your browser -->
-    <title>My Portfolio</title>
+<!DOCTYPE html>
+<html>
+<body>
 
-    <!-- This links your css file to the html -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
 
 <script>
-    let text = '{ "employees" : [' +
-'{ "firstName":"John" , "lastName":"Doe" },' +
-'{ "firstName":"Anna" , "lastName":"Smith" },' +
-'{ "firstName":"Peter" , "lastName":"Jones" } ]}'; 
+let text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
 
-const obj = JSON.parse(text); 
-
+const obj = JSON.parse(text);
 document.getElementById("demo").innerHTML =
 obj.employees[1].firstName + " " + obj.employees[1].lastName;
 </script>
 
-<body>
-    <!-- This is the start of the "About" section -->
-    <div class="about">
-        <p id="demo"></p>
-    </div>
+</body>
+</html>
