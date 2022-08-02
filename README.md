@@ -1,6 +1,6 @@
-## Welcome to Timbits
+# Welcome to Timbits
 
-### How it works
+## How it works:
 With every page loads, it displays a Timbits - a byte sized knowledge related computer science and software engineering. If you code in any capacity, this is for you!
 
 Find out yourself! Visit this URL to see what Timbit it displays: https://riyadhctg.github.io/timbits/
