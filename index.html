@@ -5,40 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+     
   </head>
   <body>
-    
     <div class="content">
       <h2 id="title"></h2>
       <h3>
         <code id="subtitle"></code>
       </h3>
-      <pre>
-        <code id="description"></code>
-	</pre>
+      <pre><code id="description"></code></pre>
     </div>
-
-    <script>
-      let obj = [{
-        "title": "Linux Command",
-        "subtitle": "ls",
-        "description": "lists contents of the current directory"
-      }, {
-        "title": "Git Command",
-        "subtitle": "git branch -a",
-        "description": "lists all branches"
-      }, {
-        "title": "Git Command",
-        "subtitle": "git checkout -b new_branch_name",
-        "description": "Create a new git branch in local named new_branch_name"
-      }]
-      
-      randIdx = Math.floor(Math.random() * obj.length)
-      randObj = obj[randIdx]
-      
-      document.getElementById("title").innerHTML = randObj.title
-      document.getElementById("subtitle").innerHTML = randObj.subtitle
-      document.getElementById("description").innerHTML = randObj.description
-    </script>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
