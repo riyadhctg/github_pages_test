@@ -12,8 +12,8 @@ Even better if you like to make it your new tab page if you want learn more freq
 
 ### FAQ:
 * **Q:** Why does it called Timbits?
-** **A:** It's one of my favorite snacks from one of my favorite [coffee shop](https://company.timhortons.com/us/en/menu/timbits.php)
+  * **A:** It's one of my favorite snacks from one of my favorite [coffee shop](https://company.timhortons.com/us/en/menu/timbits.php)
 * **Q:** Where do you get data for these Timbits?
-** **A:** For now, it's manually curated by me.
+  * **A:** For now, it's manually curated by me.
 * **Q:** How many Timbits are there?
-** **A:** We are just getting started, so stay tuned, and check in regularly.
+  * **A:** We are just getting started, so stay tuned, and check in regularly.
