@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to Timbits
 
-You can use the [editor on GitHub](https://github.com/riyadhctg/github_pages_test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### How it works
+With every page loads, it displays a Timbits - a byte sized knowledge related computer science and software engineering. If you code in any capacity, this is for you!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Find out yourself! Visit this URL to see what Timbit it displays: https://riyadhctg.github.io/timbits/
 
-### Markdown
+To make the best out of it, you can make it your home page, so every time you open your browser, you learn something new!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Even better if you like to make it your new tab page if you want learn more frequently! You can find tools like [this](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna/related?hl=en) that lets you customize your new tab URL.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/riyadhctg/github_pages_test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### FAQ:
+**Q:** Why does it called Timbits?
+**A:** It's one of my favorite snacks from one of my favorite [coffee shop](https://company.timhortons.com/us/en/menu/timbits.php)
+**Q:** Where do you get data for these Timbits?
+**A:** For now, it's manually curated by me.
+**Q:** How many Timbits are there?
+**A:** We are just getting started, so stay tuned, and check in regularly.
