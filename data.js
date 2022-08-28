@@ -35,5 +35,13 @@ const data = [
       "description": ` When your code imports packages contained in other modules, you manage those dependencies through your code's own module. That module is defined by a go.mod file that tracks the modules that provide those packages. That go.mod file stays with your code, including in your source code repository.
       
       To enable dependency tracking for your code by creating a go.mod file, run the go mod init command, giving it the name of the module your code will be in. The name is the module's module path.`
+  },
+  {
+      "title": "Git",
+      "subtitle": `git revert --no-commit 0566b053..HEAD`,
+      "description": `This will revert everything from the HEAD back to the commit hash, meaning it will recreate that commit state in the working tree as if every commit after 0766c053 had been walked back. You can then commit the current tree, and it will create a brand new commit essentially equivalent to the commit you "reverted" to.
+	    The --no-commit flag lets git revert all the commits at once- otherwise you'll be prompted for a message for each commit in the range, littering your history with unnecessary new commits.
+	    This is a safe and easy way to rollback to a previous state. No history is destroyed, so it can be used for commits that have already been made public. Source: https://stackoverflow.com/a/21718540`
   }
+  
 ]
