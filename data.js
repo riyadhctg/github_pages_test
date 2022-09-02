@@ -46,7 +46,7 @@ const data = [
 	  {
       "title": "Principles / Tips for Software Development",
       "subtitle": "Be humble",
-      "description": `No engineer in the world knows everything, the same applies to you. Source: https://ondrejsevcik.com/blog/20-rules-in-10-year. Source: https://ondrejsevcik.com/blog/20-rules-in-10-years`
+      "description": `No engineer in the world knows everything, the same applies to you. Source: https://ondrejsevcik.com/blog/20-rules-in-10-years`
   },
   {
       "title": "Principles / Tips for Software Development",
