@@ -137,6 +137,11 @@ const data = [
       "title": "Principles / Tips for Software Development",
       "subtitle": "Perfect code doesn't exist",
       "description": `It's better to accept this as a fact rather than wasting time and chasing the impossible. Source: https://ondrejsevcik.com/blog/20-rules-in-10-years`
-  }
+  },
+	{
+		"title": "Python",
+		"subtitle": "The Zen of Python",
+		"description": "Type 'import this' into your Python interpreter to read The Zen of Python"
+	}
   
 ]
